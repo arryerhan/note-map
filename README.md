@@ -1,8 +1,8 @@
 # note-map
 
-# Note Map Project Summary
+## Note Map Project Summary
 
-# Overview: Note Map is a user-friendly, map-based application that allows users to create and manage notes directly on a map interface. It utilizes JavaScript and the Leaflet library for mapping functionalities, with LocalStorage for note management.
+Overview: Note Map is a user-friendly, map-based application that allows users to create and manage notes directly on a map interface. It utilizes JavaScript and the Leaflet library for mapping functionalities, with LocalStorage for note management.
 
 # Technologies Used:
 - JavaScript: Core functionality of the application.
@@ -10,7 +10,7 @@
 - LocalStorage: To store and manage user notes.
 
 #Features:
-- User Location Access: Users can share their location to center the map. If declined, the map defaults to Miami Downtown.
+- User Location Access: Users can share their location to center the map. If declined, the map defaults to Washington,D.C.
 - Note Creation: Clicking on the map opens a form to enter a note's title, date, and status. Notes are saved in LocalStorage, and a cursor is placed at the note's location.
 - Sidebar and Note Cards: Notes are displayed as cards in a collapsible sidebar. Each card includes:
 - A Delete button to remove the note from LocalStorage.
