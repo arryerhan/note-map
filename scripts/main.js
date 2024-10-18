@@ -13,7 +13,7 @@ window.navigator.geolocation.getCurrentPosition(
     loadMap([e.coords.latitude, e.coords.longitude], "Current Location");
   },
   () => {
-    loadMap([39.925696, 32.855806], "Default Location");
+    loadMap([38.892636142310295, -77.03613281250001], "Default Location");
   }
 );
 
